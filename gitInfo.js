@@ -68,7 +68,7 @@ let status = {
 
 //CODE HERE
 let add = {
-    description: "Git command that tells Git which files to be added to the next push",
+    description: "Git command that tells Git which modified files are about to be committed",
     code: "git add <filename> OR git add ."
 }
 //////////////////PROBLEM 7////////////////////
@@ -79,7 +79,7 @@ let add = {
 
 //CODE HERE
 let commit = {
-    description: "Git command that stages files that have been added",
+    description: "Git command that stages files that have been added and creates a revision log",
     code: "git commit -m 'commitMessage' "
 }
 
@@ -91,6 +91,6 @@ let commit = {
 
 //CODE HERE
 let push = {
-    description: "Git command that pushes staged commits to a GitHub repository",
+    description: "Git command that pushes staged commits to a remote GitHub repository",
     code: "git push"
 }
